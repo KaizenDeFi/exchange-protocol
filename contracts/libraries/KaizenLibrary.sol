@@ -2,8 +2,8 @@
 pragma solidity >=0.5.0;
 
 import "./SafeMath.sol";
-import "../interfaces/IPancakeFactory.sol";
-import "../interfaces/IPancakePair.sol";
+import "../interfaces/IKaizenFactory.sol";
+import "../interfaces/IKaizenPair.sol";
 
 library PancakeLibrary {
     using SafeMath for uint256;
